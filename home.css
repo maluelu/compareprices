@@ -1,0 +1,170 @@
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    min-height: 100vh;
+    display: flex;
+  }
+  .Le{
+    background: rgb(8, 8, 49);
+    height: 100vh;
+    width: 200%;
+    color: azure;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .esquerdo{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  button {
+    margin-top: 10px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    padding: 0.7em 2em;
+    border: 3px solid #304878;
+    border-radius: 2px;
+    position: relative;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+    color: #18070f;
+    text-decoration: none;
+    transition: 0.3s ease all;
+    z-index: 1;
+  }
+  
+  button:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: '';
+    background-color: #7890a8;
+    z-index: -1;
+  }
+  
+  button:hover, button:focus {
+    color: white;
+  }
+  
+  button:hover:before, button:focus:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+  }
+  
+  button:active {
+    transform: scale(0.9);
+  }
+
+
+
+
+  .esquerdo p{
+    margin: 10px;
+  
+  }
+  .i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: white;
+    border-radius: 50px;  
+    height: 4vh;
+    width: 28px;
+    margin-right:10px;
+  }
+  .Leb{
+    display: flex
+  }
+  header p {
+    margin-top: 1%;
+    margin-left: 3.5%;
+    font-size: 16px;
+  }
+  .foot {
+    margin-right: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between; 
+  }
+  
+  .user {
+    background-color: rgb(255, 255, 255); 
+    width: 145px;
+    height: 85px;
+    margin: 65px;
+    border-radius: 25px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+  }
+  .rd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+  
+  }
+  
+  .perfil{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: black;
+      color: white;
+      height: 30px;
+      width: 30px;
+      border-radius: 50px;
+    }
+  
+  .user-profile{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+  
+  }
+  .ldm {
+    display: flex;
+    
+  }
+  main {
+    background-color: rgba(253, 252, 253, 0.959);
+    height: 85vh;
+  }
+  footer {
+    margin-right: 10px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  img{
+    width: 92.8%;
+    margin-left: 10px;
+    display: flex;
+    margin :auto
+  }
+  
