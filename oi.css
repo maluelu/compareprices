@@ -20,10 +20,10 @@ main {
 .conteudo-principal {
   background-color: rgb(255, 255, 255);
   border-radius: 50px;
-  margin-top: 50px;
-  margin-left: 450px;
-  height: 390px;
-  width: 400px;
+  margin-top: 150px;
+  margin-left: 550px;
+  height: 410px;
+  width: 500px;
 }
 
   img {
