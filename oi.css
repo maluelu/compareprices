@@ -1,5 +1,6 @@
 *{
   margin: 0%;
+  padding: 0%;
 }
 header {
   display: flex;
@@ -21,20 +22,20 @@ main {
   background-color: rgb(255, 255, 255);
   border-radius: 50px;
   margin-top: 150px;
-  margin-left: 550px;
+  margin-left: 750px;
   height: 410px;
   width: 500px;
 }
 
   img {
-    width: 100px;
-    margin-left: 10px;
+    width: 130px;
+    margin-left: 90px;
     
   }
   .link {
     font-family: sans-serif;
     text-decoration: none;
-    font-size: 19px;
+    font-size: 25px;
     color: black;
     margin-left: 20px;
     margin top: 20px;
@@ -49,7 +50,7 @@ main {
   }
   
   .input {
-    margin-left: 180px;
+    margin-left: 280px;
     height: 30px;
     line-height: 28px;
     padding: 7px;
