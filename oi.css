@@ -21,23 +21,23 @@ main {
 .conteudo-principal {
   background-color: rgb(255, 255, 255);
   border-radius: 50px;
-  margin-top: 60px;
-  margin-left: 450px;
-  height: 400px;
-  width: 416px;
+  margin-top: 99px;
+  margin-left: 660px;
+  height: 590px;
+  width: 550px;
 }
 
   img {
-    width: 100px;
+    width: 120px;
     margin-left: 90px;
     
   }
   .link {
     font-family: sans-serif;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 20px;
     color: black;
-    margin-left: 20px;
+    margin-left: 30px;
     margin top: 20px;
 
   }
@@ -50,7 +50,7 @@ main {
   }
   
   .input {
-    margin-left:130px;
+    margin-left:260px;
     height: 30px;
     line-height: 28px;
     padding: 7px;
@@ -173,8 +173,7 @@ button {
  }
  .link2 {
   
-  padding: 8px;
-  margin-left: 200px;
+  padding: 20px;
   display: flex;
   justify-content: center;
   align-items:centerr;
@@ -182,7 +181,7 @@ button {
   text-decoration: none;
   font-size: 25px;
   color: rgb(56, 15, 15);
-  margin-left: 40px;
+  margin-left: 20px;
 
  }
  
