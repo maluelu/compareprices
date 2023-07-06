@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans';
+}
+.body (
+    width:100vw;
+    heighr: 100vh;
+    display:flex;
+    align-itens:center;
+    background-color:pink;
+    
+
+)
+.container {
+   background-color: rgb(105, 14, 100);
+     
+}
