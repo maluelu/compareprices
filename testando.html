@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+    display: flex;
+    background-color: #cdf6eb;
+    margin: 10px auto 30px;
+    max-width: 500px;
+    font-family: sans-serif;
+}
+
+.space-between {
+     justify-content: space-between;
+}
+.container div {
+    background: #028082;     
+    margin: 8px 4px;
+    height: 80px;
+    width: 80px;
+    font-size: 1em;
+    color: #fff;
+    /* as proriedades a partir daqui alinham o texto no centro */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+h4 {
+    margin: 20px 0 0 20px;    
+    font-family: sans-serif;    
+    font-weight: normal;
+    font-size: 1em;
+    color: #3b3b3b;
+    text-align: center;
+}
+</style>
+<body>
+    <h4>flex-start</h4>
+   
+    
+    <div class="container space-between">
+        <div class="item_1">Item 1</div>
+        <div class="item_2">Item 2</div>
+        <div class="item_3">Item 3</div>
+    </div>
+    
+</body>
+</html>
