@@ -61,12 +61,14 @@ header{
 
  }
  img {
-  width: 30px;
+  width: 120px;
+  margin-left: 60px;
 
  }
- p1{
-  font-size: 20px;
-  margin-left: 12px;
+ p{
+  font-size: 24px;
+  margin-top: 80px;
+ 
   
  }
 
@@ -103,7 +105,7 @@ h4 {
   align-items: center;
   position: relative;
   max-width: 500px;
-  margin-left: 200px;
+  margin-left: 1px;
 }
 
 .input {

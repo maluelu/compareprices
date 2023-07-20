@@ -6,52 +6,209 @@
     <title>Document</title>
 </head>
 <style>
-    body {
-  margin: 0;
-  padding: 0;
-}
-.container {
-    display: flex;
-    background-color: #cdf6eb;
-    margin: 10px auto 30px;
-    max-width: 500px;
-    font-family: sans-serif;
+.modal {
+  width: 450px;
+  background: linear-gradient(180deg, #DCF9E0 0%, #FFFFFF 30.21%);
+  box-shadow: 0px 187px 75px rgba(0, 0, 0, 0.01), 0px 105px 63px rgba(0, 0, 0, 0.05), 0px 47px 47px rgba(0, 0, 0, 0.09), 0px 12px 26px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
 }
 
-.space-between {
-     justify-content: space-between;
+.banner {
+  width: 100%;
+  height: 30px;
+  margin: 0;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
-.container div {
-    background: #028082;     
-    margin: 8px 4px;
-    height: 80px;
-    width: 80px;
-    font-size: 1em;
-    color: #fff;
-    /* as proriedades a partir daqui alinham o texto no centro */
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
+
+.title {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 21px;
+  text-align: center;
+  color: #2B2B2F;
+  margin-bottom: 15px;
 }
-h4 {
-    margin: 20px 0 0 20px;    
-    font-family: sans-serif;    
-    font-weight: normal;
-    font-size: 1em;
-    color: #3b3b3b;
-    text-align: center;
+
+.description {
+  max-width: 80%;
+  margin: auto;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 16px;
+  text-align: center;
+  color: #5F5D6B;
+}
+
+.tab-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  position: relative;
+  padding: 2px;
+  background-color: #ebebec;
+  border-radius: 9px;
+  margin: 10px 20px 0px 20px;
+}
+
+.indicator {
+  content: "";
+  width: 50%;
+  height: 28px;
+  background: #FFFFFF;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  z-index: 9;
+  border: 0.5px solid rgba(0, 0, 0, 0.04);
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.12), 0px 3px 1px rgba(0, 0, 0, 0.04);
+  border-radius: 7px;
+  transition: all 0.2s ease-out;
+}
+
+.tab {
+  width: 50%;
+  height: 28px;
+  position: relative;
+  z-index: 99;
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  flex: none;
+  align-self: stretch;
+  flex-grow: 1;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.tab--1:hover ~ .indicator {
+  left: 2px;
+}
+
+.tab--2:hover ~ .indicator {
+  left: calc(50% - 2px);
+}
+
+.benefits {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.benefits > span {
+  font-size: 15px;
+  color: #2B2B2F;
+  font-weight: 700;
+}
+
+.benefits ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.benefits ul li {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.benefits ul li span {
+  font-weight: 600;
+  font-size: 12px;
+  color: #5F5D6B;
+}
+
+.modal--footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-top: 1px solid #ebebec;
+}
+
+.price {
+  position: relative;
+  font-size: 32px;
+  color: #2B2B2F;
+  font-weight: 900;
+}
+
+.price sup {
+  font-size: 13px;
+}
+
+.price sub {
+  width: fit-content;
+  position: absolute;
+  font-size: 11px;
+  color: #5F5D6B;
+  bottom: 5px;
+  display: inline-block;
+}
+
+.upgrade-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 215px;
+  height: 40px;
+  background: #0bdd12;
+  box-shadow: 0px 0.5px 0.5px #EFEFEF, 0px 1px 0.5px rgba(239, 239, 239, 0.5);
+  border-radius: 7px;
+  border: 0;
+  outline: none;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 600;
+  transition: all 0.3s cubic-bezier(0.15, 0.83, 0.66, 1);
+}
+
+.upgrade-btn:hover {
+  background-color: #07b90d;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+input {
+  margin-left: 30px;
+  width: 390px;
+  height: 24px;
+  border-radius: 100px;
 }
 </style>
 <body>
-    <h4>flex-start</h4>
-   
-    
-    <div class="container space-between">
-        <div class="item_1">Item 1</div>
-        <div class="item_2">Item 2</div>
-        <div class="item_3">Item 3</div>
-    </div>
-    
+
 </body>
+<div class="modal">
+    <form class="form">
+      
+      <div class="tab-container">
+        <button class="tab tab--1">Fisica</button>
+        <button class="tab tab--2">Juridica</button>
+        <div class="indicator"></div>
+      </div>
+          <form>
+        
+            <input type="text" name="email" placeholder="Nome Completo"/>
+            <input type="text" name="senha" placeholder="Cpf"/>
+            <input type="submit" name="acao" value="Enviar"/>
+           </form>
+          <li>
+           
+           
+      </div>
+  
+      <div class="modal--footer">
+        <label class="price"><sup>$</sup>9<sub>/mo</sub></label>
+        <button class="upgrade-btn">Upgrade to PRO</button>
+      </div>
+    </form>
+  </div>
 </html>
