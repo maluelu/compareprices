@@ -32,10 +32,17 @@ header{
 .conteudo-principal {
   background-color: rgb(255, 255, 255);
   border-radius: 50px;
+<<<<<<< Updated upstream
   margin-top: 99px;
   margin-left: 630px;
   height: 590px;
   width: 550px;
+=======
+  margin-top: 110px;
+  margin-left: 730px;
+  height: 180px;
+  width: 100px;
+>>>>>>> Stashed changes
 }
 
     
