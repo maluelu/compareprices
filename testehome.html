@@ -101,13 +101,10 @@ button {
   margin-bottom: 0px;
   border: 1px solid #ccc;
   border-radius: 20px;
-<<<<<<< HEAD
-  margin-left: 70px;
   margin-top: 2px;
-=======
-  margin-left: 44px;
+  margin-left: 70px;
   margin-top: 20px;
->>>>>>> 921527f8e567c19c952acf8b216fc75ef0a396f2
+
 }
 
 button {
@@ -130,12 +127,11 @@ h2 {
   color: #F17E34;
   text-align: center;
   padding: 20px;
-=======
   margin-top: 3px;
   color: #F17E34;
   text-align: center;
   font-size: 19px;
->>>>>>> 921527f8e567c19c952acf8b216fc75ef0a396f2
+
 }
 .cbx {
  
@@ -203,6 +199,10 @@ p1{
 p{
   margin-left: 180px;
 }
+.link3{
+  text-decoration: none;
+  color:#000000;
+}
 </style>
 <body>
     <header     
@@ -229,8 +229,8 @@ p{
       <br>
         <br>
       <form id="login-form">
-        <input type="text" id="Cpf/ E-mail/ Cnpj" placeholder="Cpf/ E-mail/ Cnpj">
-        <input type="password" id="password" placeholder="Senha">
+        <input type="text" id="login" placeholder="login">
+        <input type="password" id="senha" placeholder="Senha">
         <h2>Esqueci minha senha</h2>
         </form>
         <br>
@@ -238,27 +238,30 @@ p{
     <label for="cbx" class="cbx"><h3>Salvar</h3></label>
         <br>
         <br>
-<<<<<<< HEAD
-    <button type="submit">Entrar</button>
-    <br>
-    <br>
     <p>ou</p>
-        <button type="submit">Cadastrar</button>
-=======
-    <button type="submit">Login</button>
-        <button type="submit">Login</button>
->>>>>>> 921527f8e567c19c952acf8b216fc75ef0a396f2
+    <button type="submit" onclick="logar();return false">Entrar</button>
+      <button type="submit"><a href="testando.html" class="link3">Minha Conta</a></button>
+
       </form>
       <p id="message"></p>
     </div>
 
+    <script>
+  function logar(){
 
+          var login = document.getElementById('login').value;
+          var senha = document.getElementById('senha').value;
+        
+          if(login == "admin" && senha == "admin"){
+            alert('Sucesso');
+            location.href = "oi.html";
 
-
-
-
-
-
+          }else{
+            alert('Senha Errada');
+          }
+  }
+       
+    </script>
 
   </main>
 </body>

@@ -32,17 +32,14 @@ header{
 .conteudo-principal {
   background-color: rgb(255, 255, 255);
   border-radius: 50px;
-<<<<<<< Updated upstream
   margin-top: 99px;
   margin-left: 630px;
   height: 590px;
   width: 550px;
-=======
   margin-top: 110px;
-  margin-left: 730px;
-  height: 180px;
-  width: 100px;
->>>>>>> Stashed changes
+  margin-left: 630px;
+  height: 570px;
+  width: 500px;
 }
 
     
@@ -98,7 +95,7 @@ margin-left:50px;
   background-color: #FFA571;
   margin: 1px auto 30px;
   margin
-  max-width: 1700px;
+  height: 200px;
   font-family: sans-serif;
 }
 
