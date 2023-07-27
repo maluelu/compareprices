@@ -17,6 +17,7 @@ body{
 }
 main {
   margin: 20px;
+
 }
 header{
   height: 100px;
@@ -25,7 +26,7 @@ header{
  .oi {
     background-color:#F17E34;
     width: 180px;
-    height: 42px;
+    height: 35px;
     border-radius: 50px;
  }
 
@@ -118,7 +119,7 @@ h4 {
   align-items: center;
   position: relative;
   max-width: 500px;
-  margin-right: 450px;
+  margin-right: 360px;
 }
 
 .input {
@@ -157,9 +158,9 @@ h4 {
 
 }
 
-p2{
+p3{
   text-decoration: none;
-  margin-left: 60px;
+  margin-left:30px;
 }
 
 
