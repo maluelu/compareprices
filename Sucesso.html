@@ -3,25 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Do</title>
 </head>
 <style>
   *{
     margin: 0;
     padding: 0;
   }
-
+p{
+    margin-left:179px;
+    color:white;
+    font-size: 29px;
+}
 body{
   background: linear-gradient(to right, #FFDE59,#FF914D);
+  scrollbar-width: thin;          /* "auto" or "thin" */
+  scrollbar-color: blue orange;
 
 }
 .modal {
-margin-top: 2em;
-margin-left: 700px;
-  width: 460px;
-  background: linear-gradient(180deg, #DCF9E0 0%, #FFFFFF 30.21%);
+margin-top: 5em;
+margin-left: 580px;
+  width: 700px;
+  height: 60px;
+  background: linear-gradient(180deg, #000000 0%, #000000 30.21%);
   box-shadow: 0px 187px 75px rgba(0, 0, 0, 0.01), 0px 105px 63px rgba(0, 0, 0, 0.05), 0px 47px 47px rgba(0, 0, 0, 0.09), 0px 12px 26px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
-  border-radius: 16px;
+
 }
 
 .banner {
@@ -137,7 +144,7 @@ margin-left: 700px;
   align-items: center;
   justify-content: space-between;
   padding: 20px;
-  border-top: 1px solid #ebebec;
+  border-top: 1px solid #0d0d0e;
 }
 
 .price {
@@ -332,71 +339,10 @@ margin-right: 40px;
 
 <div class="modal">
     <form class="form">
-      <div class="card_header"><a href="cadastro2.html"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-      <path fill="none" d="M0 0h24v24H0z"></path>
-      <path fill="currentColor" d="M4 15h2v5h12V4H6v5H4V3a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-6zm6-4V8l5 4-5 4v-3H2v-2h8z"></path>
+      <p>Cadastro realizado com sucesso!</p>
     </svg>
     </a>
    
   </div>
-      <p1>Faça seu cadastro</p1>
-       <p10>-Insira seus dados pessoais-</p10>
-       <p11>Pessoa</p11>
-       <div class="tab-container">
-        <button class="tab tab--1">Fisica</button>
-        <button class="tab tab--2">Juridica</button>
-        <div class="indicator"></div>
-      </div>
-          <form>
-        
-            <input type="text" id="nome" placeholder="Nome Completo"/>
-             <p12>Por Favor prencha esse campo</p12>
-            <input type="cpf" id="cpf" name="cpf" placeholder="Cpf"/>
-            <p12>Por Favor prencha esse campo</p12>
-            <p11>Sexo</p11>
-            <div class="tab-container">
-              <button class="tab tab--1">Feminino</button>
-              <button class="tab tab--2">Masculina</button>
-              <div class="indicator"></div>
-            </div>
-            <input type="date" id="data" placeholder="Data de Nascimento"/>
-            <p12>Por Favor prencha esse campo</p12>
-            <input type="tel" id="foneid" placeholder="(xx)Telefone" name="fone" />
-            <p12>Por Favor prencha esse campo</p12>
-           
-           
-           
-          </form>
-          <li>
-           
-           
-      </div>
-  
-    </form>
-  </div>
-  <script>
-    function logar(){
-  
-            var nome = document.getElementById('nome').value;
-            var senha = document.getElementById('senha').value;
-          
-
-            if(nome == "admin" && senha == "admin"){
-              alert('Sucesso');
-              location.href = "oi.html";
-  
-            }else{
-              alert('Senha Errada');
-            }
-            
-
-
-    }
-         
-      </script>
-
-
-
-
-
+     
 </html>
