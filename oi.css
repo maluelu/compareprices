@@ -1,34 +1,38 @@
-*{
+* {
   margin: 0%;
   padding: 0%;
   box-sizing: 0;
 }
+
 header {
   display: flex;
   align-items: center;
-  background-color:#FFA571;
+  background-color: #FFA571;
   color: #fff;
   padding: 10px;
-  
-}
-body{
-  background: linear-gradient(to right, #FFDE59,#FF914D);
 
 }
+
+body {
+  background: linear-gradient(to right, #FFDE59, #FF914D);
+
+}
+
 main {
   margin: 20px;
 
 }
-header{
-  height: 100px;
-  width: ;
- }
- .oi {
-    background-color:#F17E34;
-    width: 180px;
-    height: 35px;
-    border-radius: 50px;
- }
+
+header {
+  height: 100%;
+}
+
+.oi {
+  background-color: #F17E34;
+  width: 180px;
+  height: 35px;
+  border-radius: 50px;
+}
 
 .conteudo-principal {
   background-color: rgb(255, 255, 255);
@@ -43,76 +47,79 @@ header{
   width: 500px;
 }
 
-    
- 
- 
- h2 {
+
+
+
+h2 {
   padding: 4px;
   text-align: center;
   margin-top: 30px;
   font-family: Arial, Helvetica, sans-serif;
- }
- .link2 {
-  
+}
+
+.link2 {
+
   padding: 20px;
   display: flex;
   justify-content: center;
-  align-items:centerr;
+  align-items: centerr;
   font-family: sans-serif;
   text-decoration: none;
   font-size: 25px;
   color: rgb(56, 15, 15);
   margin-left: 20px;
 
- }
- img {
-  width: 120px;
-margin-left:50px;
+}
 
- }
- p{
+img {
+  width: 15%;
+
+}
+
+p {
   font-size: 24px;
   margin-top: 80px;
   margin-left: 40px;
 
- 
-  
- }
- p2{
-    font-size: 24px;
-    margin-top: 80px;
-    margin-right: 10px;
 
-    
- }
 
- .con {
-   display: flex;
-   justify-content: space-between;
- }
- 
- .container {
+}
+
+p2 {
+  font-size: 24px;
+  margin-top: 80px;
+  margin-right: 10px;
+
+
+}
+
+.con {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
   display: flex;
   background-color: #FFA571;
   margin: 1px auto 30px;
-  margin
   height: 200px;
   font-family: sans-serif;
 }
 
 .space-between {
-   justify-content: space-around;
+  justify-content: space-around;
 }
 
 h4 {
-  margin: 20px 0 0 20px;    
-  font-family: sans-serif;    
+  margin: 20px 0 0 20px;
+  font-family: sans-serif;
   font-weight: normal;
   font-size: 1em;
   color: #3b3b3b;
   text-align: center;
 
 }
+
 .group {
   display: flex;
   line-height: 2800px;
@@ -123,11 +130,8 @@ h4 {
 }
 
 .input {
-  width: 900px;
-  height: 40px;
-  line-height: 400px;
-  padding: 0 1rem;
-  padding-left: 2.5rem;
+  width: 14vw;
+  height: 7vh;
   border: 2px solid transparent;
   border-radius: 8px;
   outline: none;
@@ -148,19 +152,17 @@ h4 {
   width: 1rem;
   height: 1rem;
 }
- 
+
 .link3 {
   text-decoration: none;
   font-family: sans-serif;
-  font-size:20px;
+  font-size: 20px;
   color: rgb(255, 255, 255);
   margin-left: 2px;
 
 }
 
-p3{
+p3 {
   text-decoration: none;
-  margin-left:30px;
+  margin-left: 30px;
 }
-
-
